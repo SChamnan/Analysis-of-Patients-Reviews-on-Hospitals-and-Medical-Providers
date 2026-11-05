@@ -1,11 +1,13 @@
 # Analysis of Patient Reviews on Hospitals and Healthcare Providers
 
+## Overview
 Topic modeling and sentiment analysis of ~30,000 patient reviews across 1,904 medical providers, using the Yelp Open Dataset. The goal is to identify which aspects of the patient experience drive satisfaction — information that a star rating alone cannot provide.
 
 ## Motivation
 
 Hospitals collect patient feedback through standardized surveys, but those surveys ask a fixed set of questions, so patients can only respond to what they are asked. Online reviews work the other way around: patients write them unprompted and choose what to talk about. That makes them a useful place to look for service gaps a survey might not capture.
 
+## Objectives
 Two questions drive the analysis:
 
 1. What recurring themes emerge from patient reviews?
@@ -29,7 +31,7 @@ Non-medical and adjacent categories (veterinary, cosmetic, dental, optical) were
 
 Stack: `pandas`, `scikit-learn`, `vaderSentiment`, `matplotlib`
 
-## Findings
+## Key Findings
 
 ### 1. Reviews are polarized; provider averages are not
 
